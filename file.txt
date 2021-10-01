@@ -1,1 +1,2 @@
-hello bash script
+hi this is shell this is linuxhint.com or channel of ours
+poop
