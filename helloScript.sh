@@ -1,6 +1,8 @@
 #! /bin/bash
+count=10
 
-cat << kreativ
-this is hello creative text
-add another line
-kreativ 
+if [ $count -eq 9 ]
+then
+	echo "the condition is true"
+fi
+
