@@ -1,3 +1,6 @@
 #! /bin/bash
 
-cat >> file.txt
+cat << kreativ
+this is hello creative text
+add another line
+kreativ 
