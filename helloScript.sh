@@ -1,12 +1,9 @@
 #! /bin/bash
-age=10
 
-if ["$age" -gt 18 ] && [ "$age" -lt 40 ]
-then 
-	echo "Age is correct"
-else 
-	echo "Age is not correct"
-fi
-
-
+number=1
+while [ $number -lt 10 ]
+do
+	echo "$number"
+	number=$(( number + 1 ))
+done
 
