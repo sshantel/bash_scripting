@@ -1,8 +1,12 @@
 #! /bin/bash
-count=10
+age=10
 
-if [ $count -eq 9 ]
-then
-	echo "the condition is true"
+if ["$age" -gt 18 ] && [ "$age" -lt 40 ]
+then 
+	echo "Age is correct"
+else 
+	echo "Age is not correct"
 fi
+
+
 
