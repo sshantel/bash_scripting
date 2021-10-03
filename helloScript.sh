@@ -1,15 +1,8 @@
 #! /bin/bash
 
-echo "enter 1st string"
-read st1
+echo "enter hex number of your choice"
+read Hex
 
-echo "enter 2nd string"
-read st2
+echo -n "the decimal value of $Hex is: "
 
-if [ "$st1" == "$st2" ]
-then 
-	echo "strings match"
-else
-	echo "strings don't match"
-fi
-
+echo "obase=10; ibase=16; $Hex" | bc
