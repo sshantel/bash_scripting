@@ -1,6 +1,7 @@
 #! /bin/bash
 
-ls +al >file1.txt 2>&1
-
+MESSAGE="Hello LinuxHint Audience"
+export MESSAGE
+./secondScript.sh 
 
 
