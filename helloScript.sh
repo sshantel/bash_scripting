@@ -3,4 +3,5 @@
 car=('BMW' 'Toyota' 'Honda')
 
 echo "${car[@]}"
+echo "${!car[@]}"
 
