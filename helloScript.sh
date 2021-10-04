@@ -1,9 +1,4 @@
 #! /bin/bash
 
-function funcPrint()
-{
-	echo $1
-}
-
-funcPrint Hi
+mkdir -p Directory2
 
