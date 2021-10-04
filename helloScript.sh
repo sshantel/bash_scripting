@@ -1,7 +1,8 @@
 #! /bin/bash
 
-car=('BMW' 'Toyota' 'Honda')
+function funcName()
+( echo "this is new function"
+)
 
-echo "${car[@]}"
-echo "${!car[@]}"
+funcName
 
