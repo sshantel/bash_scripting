@@ -1,8 +1,9 @@
 #! /bin/bash
 
-function funcName()
-( echo "this is new function"
-)
+function funcPrint()
+{
+	echo $1
+}
 
-funcName
+funcPrint Hi
 
